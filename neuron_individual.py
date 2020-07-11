@@ -7,7 +7,7 @@ Created on Sat Jul 11 16:40:23 2020
 """
 
 
-class neuron:
+class Neuron:
     def __init__(self, nb_inputs, weights=None, bias=0): # constructor empty calls default neuron
         if weights is not None:
             self.weights = weights
